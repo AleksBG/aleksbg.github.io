@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Bot — personal automation assistant</title>
+<meta name="description" content="Hermes Bot is a personal automation assistant that connects to its owner's own Google account to manage calendar, email, documents and spreadsheets.">
+<style>
+  :root {
+    --bg: #0f1115; --fg: #e8eaed; --muted: #9aa0a6; --card: #171a21; --accent: #8ab4f8; --line: #262a33;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f7f8fa; --fg: #1f2328; --muted: #5f6368; --card: #ffffff; --accent: #1a73e8; --line: #e3e6ea; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.2px; }
+  .tagline { color: var(--muted); margin: 0 0 28px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; margin-bottom: 18px; }
+  h2 { font-size: 17px; margin: 0 0 10px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 14px; margin-top: 28px; }
+  code { background: rgba(127,127,127,.14); padding: 1px 5px; border-radius: 5px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hermes Bot</h1>
+  <p class="tagline">A personal automation assistant for a single user account.</p>
+
+  <section>
+    <h2>What this app is</h2>
+    <p>Hermes Bot is a private, single-user automation assistant. It is operated by one individual for their own Google Account and is not offered as a public service: there is no sign-up, no public login, and no third-party user accounts.</p>
+    <p>It runs as the <code>Hermes Agent</code> software on a computer controlled by its owner. When the owner asks for something in plain language — in chat or by email — the assistant performs the corresponding action in the owner's own Google Workspace account on their behalf.</p>
+  </section>
+
+  <section>
+    <h2>What it does with Google data</h2>
+    <ul>
+      <li><strong>Calendar</strong> — read availability, create, move and delete the owner's events.</li>
+      <li><strong>Gmail</strong> — read incoming mail to triage it, prepare drafts, and send replies or notifications that the owner requests.</li>
+      <li><strong>Drive</strong> — read and store the documents the assistant works with.</li>
+      <li><strong>Docs &amp; Sheets</strong> — read and update documents and spreadsheets when asked, for example to log notes or prepare a digest.</li>
+      <li><strong>Contacts</strong> — read-only, to resolve names to email addresses when sending mail.</li>
+    </ul>
+    <p>All actions are triggered by explicit requests from the account owner. Hermes Bot does not sell data, does not use Google user data for advertising, and does not use it to train machine-learning models.</p>
+  </section>
+
+  <section>
+    <h2>Privacy &amp; support</h2>
+    <ul>
+      <li><a href="./privacy.html">Privacy Policy</a> — how Google data is accessed, used, stored and deleted.</li>
+      <li>Contact: <a href="mailto:onehermesbot@gmail.com">onehermesbot@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Hermes Bot is not affiliated with Google LLC. Google, Gmail, Google Calendar and Google Drive are trademarks of Google LLC.</p>
+  </footer>
+</main>
+</body>
+</html>
